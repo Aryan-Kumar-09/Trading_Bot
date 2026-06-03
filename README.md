@@ -42,7 +42,7 @@ trading_bot/
 ### 1. Clone / unzip the project
 
 ```bash
-git clone https://github.com/<your-username>/trading_bot.git
+git clone https://github.com/Aryan-Kumar-09/Trading_Bot
 cd trading_bot
 ```
 
@@ -82,10 +82,6 @@ BINANCE_API_KEY=your_actual_api_key
 BINANCE_API_SECRET=your_actual_api_secret
 ```
 
-> ⚠️ `.env` is in `.gitignore` — it will **never** be committed to Git.  
-> Only `.env.example` (with empty placeholders) is tracked.
-
----
 
 ## 🚀 How to Run
 
