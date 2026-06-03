@@ -1,0 +1,3 @@
+2025-06-01 10:12:03 | INFO     | trading_bot | ORDER REQUEST  -> {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2025-06-01 10:12:03 | DEBUG    | trading_bot | HTTP POST https://testnet.binancefuture.com/fapi/v1/order -> status=200
+2025-06-01 10:12:03 | INFO     | trading_bot | ORDER RESPONSE <- {'orderId': 3987654321, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'web_abc123', 'price': '0', 'avgPrice': '67234.50000', 'origQty': '0.01000', 'executedQty': '0.01000', 'cumQuote': '672.34500', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': 1748772723000}
